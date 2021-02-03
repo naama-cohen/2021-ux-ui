@@ -3,7 +3,7 @@
     vertical-align: top;
 }
 .logo {
-    width: 23%;
+    width: 10%;
     padding: 1%;
     text-align: center;
 }
@@ -11,10 +11,15 @@
     width: 73%;
     padding: 1%;
 }
-.ul {
-    width: 50%;
+ul {
     margin-left: auto;
 }
+footer ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .heroImg {
 height: 600px;
 padding: 25px;
@@ -23,14 +28,11 @@ padding: 25px;
     width: 500px;
     margin: 0 auto;
 }
+
+.my_img img {
+    width: 100%;
+}
 .footer {
     background-color: #373738;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-.ul {
-    display: inline-block;
-    vertical-align: top;
-}
+    color: #ffffff;
 }
